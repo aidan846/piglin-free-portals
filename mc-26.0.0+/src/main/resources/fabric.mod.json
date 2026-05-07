@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "piglin-free-portals",
+	"version": "2.0.0",
+	"name": "Piglin Free Portals",
+	"description": "Stop piglins from spawning in your portals, freeing up your mobcap!",
+	"authors": [
+		"8617"
+	],
+	"contact": {
+		"homepage": "https://github.com/aidan846/piglin-free-portals",
+		"sources": "https://github.com/aidan846/piglin-free-portals"
+	},
+	"license": "MIT",
+	"icon": "assets/piglin-free-portals/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"piglin.free.portals.PiglinFreePortals"
+		]
+	},
+	"mixins": [
+		"piglin-free-portals.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18",
+		"minecraft": ">=26",
+		"java": ">=21"
+	}
+}
